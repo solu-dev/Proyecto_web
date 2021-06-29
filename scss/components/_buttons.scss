@@ -1,0 +1,77 @@
+/* ESTILO Y CONTENEDORES DE BOTONES */
+@import '../base/variables';
+@import '../base/listas';
+
+
+.button-style {
+    @include button-style-media-query($button-fs, 75%);
+    display: grid;
+    justify-self: center;
+
+    &:hover {
+        background-color: #7d5a5a;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        text-decoration: underline;
+        transform: scale(1.15);
+        transition: all 0.5s;
+    }
+
+    @media (min-width:600px) and (max-width:1024px){
+        @include button-style-media-query($button-tablet-fs, 200px);
+
+    }
+
+    @media (max-width: 599px) {
+        @include button-style-media-query($button-celular-fs, 200px);
+
+    }
+}
+
+.adoption-button-style {
+    @include adoption-button-media-query($button-fs, 12px 28px, 50%);
+
+
+    &:hover {
+        background-color: #7d5a5a;
+        transform: scale(1.25);
+        transition: all 1s;
+    }
+
+    @media (min-width:600px) and (max-width:1024px) {
+        @include adoption-button-media-query($button-fs, 10px 10px, 50%);
+        
+    }
+
+    @media (max-width: 599px) {
+        @include adoption-button-media-query($button-fs, 8px 8px, 75%);
+
+    }
+}
+
+/* CONTAINERS */
+.button-container {
+    @include button-containers(20px 150px 0 150px, space-around);
+    
+    @media (min-width:600px) and (max-width:1024px) {
+        @include button-containers(20px, space-around);
+    }
+
+    @media (max-width: 599px) {
+        @include button-containers(10px, space-around);
+    }
+}
+
+.adoption-button-container {
+    @include button-containers(30px, center);
+
+    @media (min-width:600px) and (max-width:1024px) {
+        @include button-containers(20px, center);
+    }
+
+    @media (max-width: 599px) {
+        @include button-containers(20px, center);
+    }
+}
+
+
+

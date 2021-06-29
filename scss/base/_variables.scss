@@ -1,0 +1,95 @@
+/* ESTILO DE FUENTES */
+@import 'listas';
+
+/* VARIABLES */ 
+
+/* MARGINS */
+$margin-gral: 0 150px;
+$margin-gral-tablet: 0 75px;
+$margin-gral-celular: 0 25px;
+
+/* FAMILIAS DE FUENTES */
+$font-gral: 'Bebas Neue', cursive;
+$paragraph-f: 'IBM Plex Mono', monospace;
+$link-f: 'Spartan', sans-serif;
+
+/* ESTILOS DE FUENTES */
+$gral-fs: 30px;
+$gral-tablet-fs: 20px;
+$gral-celular-fs: 8px;
+
+$title-fs: 20px;
+$title-tablet-fs: 25px;
+$title-celular-fs: 10px;
+
+$stitle-fs: 20px;
+$stitle-tablet-fs: 20px;
+$stitle-celular-fs: 8px;
+
+$paragraph-fs: 13px;
+$paragraph-tablet-fs: 12px;
+$paragraph-celular-fs: 6px;
+
+$button-fs: 20px;
+$button-tablet-fs: 15px;
+$button-celular-fs: 10px;
+
+$footer-fs: 20px;
+$footer-tablet-fs: 15px;
+$footer-celular-fs: 8px;
+
+/* BACKGROUNDS */
+$index-bg: url(../images/ginger_background.jpeg);
+$adoptions-bg: url(../images/calico_background.jpeg);
+$donate-bg: url(../images/white_background.jpeg);
+$contact-bg: url(../images/black_background.jpeg);
+$foster-bg: url(../images/grey_background.jpeg);
+$spay-bg: url(../images/tabby_ginger_background.jpg);
+$todo-bg: url(../images/tabby_background.jpeg);
+$body-bg: white;
+
+
+/* MIXIN */
+
+@mixin bodys-bg($body-bgimg) {
+    background-image: $body-bgimg;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: $font-gral;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+@mixin button-style-media-query($fontsize, $width) {
+    background-color: white;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    font-family: $font-gral;
+    font-size: $fontsize;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: $width;
+}
+
+@mixin adoption-button-media-query ($fontsize, $padding, $width) {
+        background-color: white;
+        border: none;
+        text-decoration: none;
+        text-align: center;
+        font-family: $font-gral;
+        font-size: $fontsize;
+        padding: $padding;
+        border-radius: 8px;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        width: $width;
+        margin: 10px 100px 10px 100px;
+}
+
+@mixin button-containers($margin-padding, $position) {
+    display: flex;
+    justify-content: $position;
+    margin: $margin-padding;
+}

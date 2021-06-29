@@ -1,0 +1,1043 @@
+/* ESTILO DE PÁGINAS */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* BODYS */
+
+.index-body {
+    background-image: url(images/ginger_background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    margin: 0;
+}
+
+.adoptions-body {
+    background-image: url(images/calico_background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    margin: 0;
+}
+
+.donate-body {
+    background-image: url(images/white_background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    margin: 0;
+}
+
+.contact-body {
+    background-image: url(images/black_background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    margin: 0;
+}
+
+.foster-body {
+    background-image: url(images/grey_background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    margin: 0;
+}
+
+.spay-neuter-body {
+    background-image: url(images/tabby_ginger_background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    margin: 0;
+}
+
+.to-do-body {
+    background-image: url(images/tabby_background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    margin: 0;
+}
+
+/* IMAGES */
+
+/* logo */
+.logo-position {
+    width: 8% ;
+    margin: auto;
+    display: block;
+}
+
+/* imagenes */
+.banner-style {
+    background-color: white;
+    display: block;
+    padding: 0px;
+    width: 100%;
+}
+
+.img-style {
+    margin: auto;
+    display: block;
+    padding: 30px 0;
+    width: 50%;
+}
+
+@media only screen and (min-width:600px) and (max-width:1024px) {
+    .img-style {
+    margin: auto;
+    display: block;
+    padding: 20px 0;
+    width: 70%;
+    }
+}
+
+@media only screen and (max-width: 599px) {
+    .img-style {
+    margin: auto;
+    display: block;
+    padding: 15px 0;
+    width: 75%;
+    }
+}
+
+.button-image {
+    width: 75%;
+    display: grid;
+    justify-self: center;
+}
+
+@media only screen and (min-width:600px) and (max-width:1024px) {
+    .mobile-img-style {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 599px) {
+    .mobile-img-style {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media only screen and (min-width:600px) and (max-width:1024px) {
+    .media-logos {
+        width: 15px;
+        height: 15px;
+    }
+}
+
+@media only screen and (max-width: 599px) {
+    .media-logos {
+        width: 10px;
+        height: 10px;
+    }
+} 
+
+/* TEXTS */
+
+/* estilos generales */
+.general-style {
+    color: #dbacac;   
+    font-size: 30px;
+    text-align: center;
+    background-color: white;
+    margin: 50px 150px 0 150px;
+    border: 1px solid white;
+    padding-top: 20px;
+}
+
+@media only screen and (min-width:600px) and (max-width:1024px) {
+    .general-style {
+       color: #dbacac;   
+       font-size: 20px;
+       text-align: center;
+       background-color: white;
+       margin: 10px 75px 0 75px;
+       border: 1px solid white;
+   }
+}
+
+@media only screen and (max-width: 599px) {
+    .general-style {
+        color: #dbacac;   
+        font-size: 8px;
+        text-align: center;
+        background-color: white;
+        margin: 10px 25px 0 25px;
+        border: 1px solid white;
+    }
+}
+
+/* estilo de titulos */
+.title-style {
+    color: #dbacac;
+    font-size: 20px;
+    text-decoration: underline;
+    background-color: white;
+    /* margin: 0 150px 0 150px; */
+    padding: 20px 50px;    
+}
+
+@media only screen and (min-width:600px) and (max-width:1024px) {
+    .title-style {
+        color: #dbacac;
+        font-size: 25px;
+        text-decoration: underline;
+        background-color: white;
+        padding: 20px 20px;    
+    }
+}
+
+@media only screen and (max-width: 599px) {
+    .title-style {
+        color: #dbacac;
+        font-size: 10px;
+        text-decoration: underline;
+        background-color: white;
+        padding: 10px 10px;    
+    }
+}
+
+.subtitle-style {
+    color: #dbacac;
+    font-size: 20px;  
+    text-align: justify;
+    background-color: white;
+    /* margin: 0 150px 0 150px; */
+    padding: 20px 0 20px 0;     
+}
+
+@media only screen and (min-width:600px) and (max-width:1024px) {
+    .subtitle-style {
+        color: #dbacac;
+        font-size: 20px;  
+        text-align: justify;
+        background-color: white;
+        padding: 20px 0 20px 0;     
+    }
+}
+
+@media only screen and (max-width: 599px) {
+    .subtitle-style {
+        color: #dbacac;
+        font-size: 8px;  
+        text-align: justify;
+        background-color: white;
+        padding: 10px 0 10px 0;     
+    }
+}
+
+/***************************************************/
+
+/* estilo de parrafos*/
+.paragraph-style {
+    font-family: 'IBM Plex Mono', monospace;
+    color: #dbacac;
+    text-align: left;
+    background-color: white;
+    /* margin: 0 150px 0 150px; */
+    padding: 10px 50px;
+    font-size: 13px;
+}
+
+@media only screen and (min-width:600px) and (max-width:1024px) {
+    .paragraph-style {
+        font-family: 'IBM Plex Mono', monospace;
+        color: #dbacac;
+        text-align: left;
+        background-color: white;
+        padding: 15px 15px;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 599px) {
+    .paragraph-style {
+        font-family: 'IBM Plex Mono', monospace;
+        color: #dbacac;
+        text-align: left;
+        background-color: white;
+        padding: 5px 5px;
+        font-size: 6px;
+    }
+}
+
+.descriptions-style {
+    font-family: 'IBM Plex Mono', monospace;
+    color: #dbacac;
+    text-align: center;
+    background-color: white;
+    margin: 20px 100px 20px 100px;
+    padding: 0 10px;
+    display: grid;
+    align-items: center;
+    font-size: 13px;
+}
+
+@media only screen and (min-width:600px) and (max-width:1024px) {
+    .descriptions-style {
+    font-family: 'IBM Plex Mono', monospace;
+    color: #dbacac;
+    text-align: center;
+    background-color: white;
+    margin: 20px 50px;
+    padding: 10px 55px;
+    display: grid;
+    align-items: center;
+    font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 599px) {
+    .descriptions-style {
+     font-family: 'IBM Plex Mono', monospace;
+    color: #dbacac;
+    text-align: center;
+    background-color: white;
+    margin: 0 5px;
+    padding: 0;
+    display: grid;
+    align-items: center;
+    font-size: 6px;
+    }
+}
+
+/* estilo de listas */
+.list-style {
+    color: #dbacac;
+    text-align: justify;
+    background-color: white;
+}
+
+/* NAVIGATION */
+
+/* hipervinculos */
+.link-style {
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+
+@media only screen and (min-width:600px) and (max-width:1024px) {
+    .link-style {
+        text-decoration: none;
+        font-size: 20px;
+        color: white;
+    }
+}
+
+@media only screen and (max-width: 599px) {
+    .link-style {
+        text-decoration: none;
+        font-size: 10px;
+        color: white;
+    }
+} 
+
+/* listas con hipervinculos */
+.list-link-style {
+    color: white;
+    text-align: justify;
+    display: inline;
+    margin: 0 50px;
+}
+
+@media only screen and (min-width:600px) and (max-width:1024px) {
+    .list-link-style {
+        color: white;
+        text-align: justify;
+        display: inline;
+        margin: 10px;
+    }
+}
+
+@media only screen and (max-width: 599px) {
+    .list-link-style {
+        color: white;
+        text-align: justify;
+        display: inline;
+        margin: 5px;
+    }
+} 
+
+.link-style:hover{
+   text-decoration: underline;
+   color: white;
+}
+
+/* hipervinculos redes sociales */
+.social-media-style {
+    text-decoration: underline;
+    font-size: 20px;
+    color: #dbacac;
+}
+
+@media only screen and (min-width:600px) and (max-width:1024px) {
+    .social-media-style {
+        text-decoration: underline;
+        font-size: 15px;
+        color: #dbacac;
+     }
+}
+
+@media only screen and (max-width: 599px) {
+    .social-media-style {
+        text-decoration: underline;
+        font-size: 8px;
+        color: #dbacac;
+     }
+} 
+
+.social-media-style2 {
+    text-decoration: underline;
+    font-size: 20px;
+    color: #7d5a5a;
+}
+
+@media only screen and (min-width:600px) and (max-width:1024px) {
+    .social-media-style2 {
+        text-decoration: underline;
+        font-size: 15px;
+        color: #7d5a5a;
+     }
+}
+
+@media only screen and (max-width: 599px) {
+    .social-media-style2 {
+        text-decoration: underline;
+        font-size: 8px;
+        color: #7d5a5a;
+     }
+} 
+
+ /* hipervinculos externos */
+ .link-externo-style {
+    text-decoration: none;
+    font-family: 'Spartan', sans-serif;
+    font-size: 15px;
+    color: #7d5a5a;
+    text-decoration: underline;
+    text-align: center;
+}
+
+ /* BUTTONS */
+
+ /* boton general */
+ .button-style {
+    background-color: white;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 75%;
+    display: grid;
+    justify-self: center;
+    
+}
+
+@media only screen and (min-width:600px) and (max-width:1024px) {
+    .button-style {
+        background-color: white;
+        border: none;
+        text-decoration: none;
+        text-align: center;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 15px;
+        border-radius: 8px;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 599px) {
+    .button-style {
+        background-color: white;
+        border: none;
+        text-decoration: none;
+        text-align: center;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 10px;
+        border-radius: 8px;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        width: 100px;
+    }
+}
+
+.button-style:hover {
+    background-color: #7d5a5a;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    text-decoration: underline;
+    transform: scale(1.25);
+    transition: all 2s;
+}
+
+/* boton seccion adopciones */
+.adoption-button-style {
+    background-color: white;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    padding: 12px 28px;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 50%;
+    margin: 10px 150px 10px 150px;
+}
+
+.adoption-button-style:hover {
+    background-color: #7d5a5a;
+    transform: scale(1.25);
+    transition: all 2s;
+}
+
+@media only screen and (min-width:600px) and (max-width:1024px) {
+    .adoption-button-style {
+        background-color: white;
+        border: none;
+        text-decoration: none;
+        text-align: center;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 20px;
+        padding: 10px 10px;
+        border-radius: 8px;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        width: 50%;
+        margin: 10px 100px 10px 100px;
+    }
+}
+
+@media only screen and (max-width: 599px) {
+    .adoption-button-style {
+        background-color: white;
+        border: none;
+        text-decoration: none;
+        text-align: center;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 8px;
+        padding: 8px 8px;
+        border-radius: 8px;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        width: 75%;
+        margin: 10px 25px 10px 25px;
+    }
+}
+
+
+/* hipervinculo del boton */
+.button-link-style {
+    text-decoration: none;
+    color: #7d5a5a;
+}
+
+.button-link-style:hover {
+    color: white;
+}
+
+/* OTROS */
+
+/* fondo general */
+.solid-style {
+    color: #dbacac;
+    text-align: justify;
+    background-color: white;
+    margin: 0 150px 0 150px;
+    border: 1px solid white;
+    padding: 0 20px 0 20px;
+}
+
+@media only screen and (min-width:600px) and (max-width:1024px) {
+    .solid-style {
+        color: #dbacac;
+        text-align: justify;
+        background-color: white;
+        margin: 0 75px 0 75px;
+        border: 1px solid white;
+        padding: 0 20px 0 20px;
+    }
+}
+
+@media only screen and (max-width: 599px) {
+    .solid-style {
+        color: #dbacac;
+        text-align: justify;
+        background-color: white;
+        margin: 0 25px 0 25px;
+        border: 1px solid white;
+        padding: 0 10px 0 10px;
+    }
+}
+
+.footer {
+    text-align: left;
+    background-color: black;
+    margin-top: 30px;
+    width: 100%;
+    color: #dbacac;
+    font-size: 20px; 
+}
+
+@media only screen and (min-width:600px) and (max-width:1024px) {
+    .footer {
+        text-align: left;
+        background-color: black;
+        margin-top: 15px;
+        width: 100%;
+        color: #dbacac;
+        font-size: 15px; 
+    }
+}
+
+@media only screen and (max-width: 599px) {
+    .footer {
+        text-align: left;
+        background-color: black;
+        margin-top: 10px;
+        width: 100%;
+        color: #dbacac;
+        font-size: 8px; 
+    }
+} 
+
+.footer-paragraph {
+    margin-left: 50px;
+}
+
+@media only screen and (min-width:600px) and (max-width:1024px) {
+    .footer-paragraph {
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (max-width: 599px) {
+    .footer-paragraph {
+        margin-left: 10px;
+    }
+} 
+
+.footer-links-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+@media only screen and (min-width:600px) and (max-width:1024px) {
+    .footer-links-container {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 20px;
+    }
+}
+
+@media only screen and (max-width: 599px) {
+    .footer-links-container {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 10px;
+    }
+} 
+
+.social-media {
+    margin-left: 50px;    
+}
+
+@media only screen and (min-width:600px) and (max-width:1024px) {
+    .social-media {
+        margin-left: 20px;    
+    }
+}
+
+@media only screen and (max-width: 599px) {
+    .social-media {
+        margin-left: 10px;    
+    }
+} 
+
+.footer-link {
+    margin-right: 20px;
+}
+
+@media only screen and (min-width:600px) and (max-width:1024px) {
+    .footer-link {
+        margin-right: 20px;
+    }
+}
+
+@media only screen and (max-width: 599px) {
+    .footer-link {
+        margin-right: 10px;
+    }
+} 
+
+.link {
+    text-decoration: none;
+    color: #dbacac;
+    font-size: 20px;
+}
+
+@media only screen and (min-width:600px) and (max-width:1024px) {
+    .link {
+        text-decoration: none;
+        color: #dbacac;
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 599px) {
+    .link {
+        text-decoration: none;
+        color: #dbacac;
+        font-size: 8px;
+    }
+} 
+
+.link:hover {
+    text-decoration: underline;
+}
+
+/* containers */
+.menu-container {
+    background-image: linear-gradient(to bottom, #7d5a5a, #e0bbbb);
+    /* background-color: #7d5a5a; */
+    margin: 20px 0;
+}
+
+@media only screen and (min-width:600px) and (max-width:1024px) {
+    .menu-container {
+        background-color: #7d5a5a;
+        margin: 10px 0;
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+@media only screen and (max-width: 599px) {
+    .menu-container {
+        background-color: #7d5a5a;
+        margin: 20px 0;
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+.button-image-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 150px 0 150px;
+
+}
+
+@media only screen and (min-width:600px) and (max-width:1024px) {
+    .button-image-container {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+@media only screen and (max-width: 599px) {
+    .button-image-container {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 150px 0 150px;
+}
+
+@media only screen and (min-width:600px) and (max-width:1024px) {
+    .button-container {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 599px) {
+    .button-container {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 10px;
+    }
+}
+
+.footer-container {
+    text-align: left;
+    background-image: linear-gradient(to bottom, #7d5a5a, #e0bbbb);
+    /* background-color: black; */
+    width: 100%;
+    color: #dbacac;
+    font-size: 20px; 
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+@media only screen and (min-width:600px) and (max-width:1024px) {
+    .footer-container {
+        text-align: left;
+        background-color: black;
+        width: 100%;
+        color: #dbacac;
+        font-size: 15px; 
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media only screen and (max-width: 599px) {
+    .footer-container {
+        text-align: left;
+        background-color: black;
+        width: 100%;
+        color: #dbacac;
+        font-size: 8px; 
+        display: flex;
+        justify-content: space-between;
+    }
+} 
+
+.adoption-button-container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+@media only screen and (min-width:600px) and (max-width:1024px) {
+    .adoption-button-container {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 599px) {
+    .adoption-button-container {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 10px;
+    }
+} 
+
+/* GRIDS */
+
+.principal-grid {
+    box-sizing: border-box;
+    margin: 0 150px 0 150px;
+    color: #dbacac;
+    text-align: justify;
+    background-color: white;
+
+    display: grid;
+    grid-template-areas: 
+        "intro intro"
+        "intro2 intro2"
+        "physical img1"
+        "behavior img1"
+        "img2 tnr1"
+        "tnr2 img3"
+        "final final";
+    grid-template-columns: 450px 450px;
+    grid-template-rows: 200px 150px 350px 350px 550px 400px 200px;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 10px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.intro {
+    grid-area: intro;
+    margin-top: 50px;
+}
+
+.intro2 {
+    grid-area: intro2; 
+}
+
+.physical {
+    grid-area: physical;
+}
+
+.img1 {
+    grid-area: img1;
+    justify-self: center;
+    align-self: center;
+}
+
+.behavior {
+    grid-area: behavior;    
+}
+
+.tnr1 {
+    grid-area: tnr1;    
+}
+
+.img2 {
+    grid-area: img2;
+    justify-self: center;
+    align-self: center;  
+}
+
+.tnr2 {
+    grid-area: tnr2;    
+}
+
+.img3 {
+    grid-area: img3;   
+    justify-self: center;
+    align-self: center;
+}
+
+.final {
+    grid-area: final;
+}
+
+.item-paragraph-grid {
+    font-family: 'IBM Plex Mono', monospace;
+    color: #dbacac;
+    text-align: left;
+    padding: 10px;
+    font-size: 13px;
+}
+
+.item-title-grid {
+    color: #dbacac;
+    font-size: 25px;
+    text-decoration: underline;
+    padding-left: 20px;    
+}
+
+.item-list-grid {
+    color: #dbacac;
+}
+
+
+.adoption-req-container {
+    margin: 0 20px 20px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (min-width:600px) and (max-width:1024px) {
+    .adoption-req-container {
+        margin: 0 75px 15px 75px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 599px) {
+    .adoption-req-container {
+        margin: 0 10px 5px 10px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.paragraph-style-card {
+    font-family: 'IBM Plex Mono', monospace;
+    color: #dbacac;
+    font-size: 10px;
+    display: grid;
+    justify-self: center;
+}
+
+@media only screen and (min-width:600px) and (max-width:1024px) {
+    .paragraph-style-card {
+        font-family: 'IBM Plex Mono', monospace;
+        color: #dbacac;
+        font-size: 12px;
+        display: grid;
+        justify-self: center;
+    }
+}
+
+@media only screen and (max-width: 599px) {
+    .paragraph-style-card {
+        font-family: 'IBM Plex Mono', monospace;
+        color: #dbacac;
+        font-size: 6px;
+        display: grid;
+        justify-self: center;
+    }
+}
+
+.card-title {
+    color: #7d5a5a;
+    font-size: 20px;
+}
+
+@media only screen and (min-width:600px) and (max-width:1024px) {
+    .card-title {
+        color: #7d5a5a;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 599px) {
+    .card-title {
+        color: #7d5a5a;
+    font-size: 10px;
+    }
+}
+
+.banner-container {
+    margin: 0 150px 0 150px;
+    background-color: white;
+}
+
+@media only screen and (min-width:600px) and (max-width:1024px) {
+    .banner-container {
+       margin: 0px 75px 0 75px;
+       background-color: white;
+    }
+}
+
+@media only screen and (max-width: 599px) {
+    .banner-container {
+        margin: 0px 25px 0 25px;
+        background-color: white;
+    }
+}
+
+.grid-container {
+    display: grid;
+    justify-content: space-evenly;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.dropdown-link {
+    color: #7d5a5a;
+}

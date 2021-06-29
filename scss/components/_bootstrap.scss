@@ -1,0 +1,78 @@
+/* ESTILOS Y CONTAINERS PARA ELEMENTOS BOOTSTRAP */
+@import '../base/variables';
+@import '../base/listas';
+
+.paragraph-style-card {
+    font-family: $paragraph-f;
+    color: nth($font-colors, 2);
+    font-size: 10px;
+    display: grid;
+    justify-self: center;
+
+    @media (min-width:600px) and (max-width:1024px) {
+        font-family: $paragraph-f;
+        color: nth($font-colors, 2);
+        font-size: 12px;
+        display: grid;
+        justify-self: center;
+    }
+
+    @media (max-width: 599px) {
+        font-family: $paragraph-f;
+        color: nth($font-colors, 2);
+        font-size: 6px;
+        display: grid;
+        justify-self: center;
+    }
+}
+
+.card-title {
+    color: nth($font-colors, 1);
+    font-size: 20px;
+
+    @media (min-width:600px) and (max-width:1024px) {
+        color: nth($font-colors, 1);
+        font-size: 20px;
+    }
+
+    @media (max-width: 599px) {
+        color: nth($font-colors, 1);
+        font-size: 10px;
+    }
+}
+
+.card {
+
+    &:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); 
+    }
+}
+
+.dropdown-link {
+    color: nth($font-colors, 1);
+}
+
+
+/* CONTAINERS */
+.adoption-req-container {
+    margin: 0 20px 20px 20px;
+    display: flex;
+    justify-content: center;
+
+    @media (min-width:600px) and (max-width:1024px) {
+        margin: 0 75px 15px 75px;
+        display: flex;
+        justify-content: center;
+    }
+
+    @media (max-width: 599px) {
+        margin: 0 10px 5px 10px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.grid-container {
+    display: grid;
+    justify-content: space-evenly;
+}

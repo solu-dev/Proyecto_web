@@ -1,0 +1,33 @@
+/* ESTILOS DE BODYS */ 
+
+@import '../base/variables';
+@import '../base/listas';
+
+.index-body {
+    @include bodys-bg($index-bg);
+}
+
+.adoptions-body {
+    @include bodys-bg($adoptions-bg);
+}
+
+.donate-body {
+    @include bodys-bg($donate-bg);
+}
+
+.contact-body {
+    @include bodys-bg($contact-bg);
+}
+
+.foster-body {
+    @include bodys-bg($foster-bg);
+}
+
+.spay-neuter-body {
+    @include bodys-bg($spay-bg);
+}
+
+.to-do-body {
+    @include bodys-bg($todo-bg);
+}
+

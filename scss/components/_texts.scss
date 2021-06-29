@@ -1,0 +1,205 @@
+/* ESTILOS DE TEXTOS */
+@import '../base/variables';
+@import '../base/listas';
+
+/* GENERALES */
+.general-style {
+    color: nth($font-colors , 2);
+    font-size: $gral-fs;
+    text-align: center;
+    background-color: white;
+    margin: 50px 150px 0 150px;
+    border: 1px solid white;
+    padding-top: 20px;
+
+    @media (min-width:600px) and (max-width:1024px) {
+            color: nth( $font-colors, 2);
+            font-size: $gral-tablet-fs;
+            text-align: center;
+            background-color: white;
+            margin: 10px 75px 0 75px;
+            border: 1px solid white;
+    }
+
+    @media (max-width: 599px) {
+        color: nth($font-colors, 2);   
+        font-size: $gral-celular-fs;
+        text-align: center;
+        background-color: white;
+        margin: 10px 25px 0 25px;
+        border: 1px solid white;
+    }
+}
+
+.h1-seo {
+    color: nth($font-colors , 2);
+    font-size: $gral-fs;
+    text-align: center;
+    background-color: white;
+    margin: $margin-gral;
+
+    @media (min-width:600px) and (max-width:1024px) {
+        color: nth( $font-colors, 2);
+        font-size: $gral-tablet-fs;
+        text-align: center;
+        background-color: white;
+        margin: $margin-gral-tablet;
+    }
+
+    @media (max-width: 599px) {
+        color: nth($font-colors, 2);   
+        font-size: $gral-celular-fs;
+        text-align: center;
+        background-color: white;
+        margin: $margin-gral-celular;
+    }
+
+}
+
+.solid-style {
+    color: nth($font-colors , 2);
+    text-align: justify;
+    background-color: white;
+    margin: $margin-gral;
+    border: 1px solid white;
+    padding: 0 20px 0 20px;
+
+    @media (min-width:600px) and (max-width:1024px) {
+            color: nth($font-colors , 2);
+            text-align: justify;
+            background-color: white;
+            margin: $margin-gral-tablet;
+            border: 1px solid white;
+            padding: 0 20px 0 20px;
+    }
+
+    @media (max-width: 599px) {
+            color: nth($font-colors , 2);
+            text-align: justify;
+            background-color: white;
+            margin: $margin-gral-celular;
+            border: 1px solid white;
+            padding: 0 10px 0 10px;
+    }
+}
+
+/* TITULOS Y SUBTITULOS */
+.title-style {
+    color: nth($font-colors , 2);
+    font-size: $title-fs;
+    text-decoration: underline;
+    background-color: white;
+    padding: 20px 50px;    
+
+    @media (min-width:600px) and (max-width:1024px) {
+        color: nth($font-colors , 2);
+        font-size: $title-tablet-fs;
+        text-decoration: underline;
+        background-color: white;
+        padding: 20px 20px;  
+    }
+
+    @media (max-width: 599px) {
+        color: nth($font-colors , 2);
+        font-size: $title-celular-fs;
+        text-decoration: underline;
+        background-color: white;
+        padding: 10px 10px;
+    }
+}
+
+.subtitle.style {
+    color: nth($font-colors, 2);
+    font-size: $stitle-fs;  
+    text-align: justify;
+    background-color: white;
+    padding: 20px 0;
+
+    @media (min-width:600px) and (max-width:1024px) {
+        color: nth($font-colors, 2);
+        font-size: $stitle-tablet-fs;  
+        text-align: justify;
+        background-color: white;
+        padding: 20px 0 20px 0;
+    }
+
+    @media (max-width: 599px) {
+        color: nth($font-colors, 2);
+        font-size: $stitle-celular-fs;  
+        text-align: justify;
+        background-color: white;
+        padding: 10px 0; 
+    }
+}
+
+.paragraph-style {
+    font-family: $paragraph-f;
+    color: nth($font-colors, 2);
+    text-align: left;
+    background-color: white;
+    padding: 10px 50px;
+    font-size: $paragraph-fs;
+
+    @media (min-width:600px) and (max-width:1024px) {
+        font-family: $paragraph-f;
+        color: nth($font-colors, 2);
+        text-align: left;
+        background-color: white;
+        padding: 15px 15px;
+        font-size: $paragraph-tablet-fs;
+    }
+
+    @media (max-width: 599px) {
+        font-family: $paragraph-f;
+        color: nth($font-colors, 2);
+        text-align: left;
+        background-color: white;
+        padding: 15px 15px;
+        font-size: $paragraph-celular-fs;
+    }
+}
+
+.descriptions-style {
+    font-family: $paragraph-f;
+    color: nth($font-colors, 2);
+    text-align: center;
+    background-color: white;
+    margin: 20px 100px;
+    padding: 0 10px;
+    display: grid;
+    align-items: center;
+    font-size: $paragraph-fs;
+
+    @media (min-width:600px) and (max-width:1024px) {
+        font-family: $paragraph-f;
+        color: nth($font-colors, 2);
+        text-align: center;
+        background-color: white;
+        margin: 20px 50px;
+        padding: 10px 55px;
+        display: grid;
+        align-items: center;
+        font-size: $paragraph-tablet-fs;
+    }
+
+    @media (max-width: 599px) {
+        font-family: $paragraph-f;
+        color: nth($font-colors, 2);
+        text-align: center;
+        background-color: white;
+        margin: 20px 50px;
+        padding: 10px 55px;
+        display: grid;
+        align-items: center;
+        font-size: $paragraph-celular-fs;
+    }
+}
+
+/* LISTAS */
+.list-style {
+    color: nth($font-colors, 2);
+    text-align: justify;
+    background-color: white;
+}
+
+

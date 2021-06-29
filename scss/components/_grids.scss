@@ -1,0 +1,94 @@
+/* ESTILOS Y CONTAINERS DE GRIDS */
+@import '../base/variables';
+@import '../base/listas';
+
+.principal-grid {
+    box-sizing: border-box;
+    margin: $margin-gral;
+    color: nth($font-colors, 2);
+    text-align: justify;
+    background-color: $body-bg;
+    display: grid;
+    grid-template-areas: 
+        "intro intro"
+        "intro2 intro2"
+        "physical img1"
+        "behavior img1"
+        "img2 tnr1"
+        "tnr2 img3"
+        "final final";
+    grid-template-columns: 450px 450px;
+    grid-template-rows: 200px 150px 350px 350px 550px 400px 200px;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 10px;
+    align-items: center;
+    justify-content: center; 
+}
+
+.intro {
+    grid-area: intro;
+    margin-top: 50px;
+}
+
+.intro2 {
+    grid-area: intro2; 
+}
+
+.physical {
+    grid-area: physical;
+}
+
+.img1 {
+    grid-area: img1;
+    justify-self: center;
+    align-self: center;
+}
+
+.behavior {
+    grid-area: behavior;    
+}
+
+.tnr1 {
+    grid-area: tnr1;    
+}
+
+.img2 {
+    grid-area: img2;
+    justify-self: center;
+    align-self: center;  
+}
+
+.tnr2 {
+    grid-area: tnr2;    
+}
+
+.img3 {
+    grid-area: img3;   
+    justify-self: center;
+    align-self: center;
+}
+
+.final {
+    grid-area: final;
+}
+
+.item-paragraph-grid {
+    font-family: $paragraph-f;
+    color: nth($font-colors, 2);
+    text-align: left;
+    padding: 6px 6px 0 6px;
+    font-size: 13px;
+}
+
+.item-title-grid {
+    color: nth($font-colors, 2);
+    font-size: 25px;
+    text-decoration: underline;
+    padding-left: 20px;
+    margin-top: 20px;    
+}
+
+.item-list-grid {
+    color: nth($font-colors, 2);
+}

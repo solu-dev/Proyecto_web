@@ -1,0 +1,122 @@
+/* NAVIGATION */
+@import '../base/variables';
+@import '../base/listas';
+
+/* LINKS GENERALES */
+.link-style {
+    text-decoration: none;
+    font-size: 25px;
+    color: nth($font-colors, 3);
+
+    &:hover {
+        text-decoration: underline;
+        color: nth($font-colors, 3);
+    }
+
+    @media (min-width:600px) and (max-width:1024px) {
+        text-decoration: none;
+        font-size: 20px;
+        color: nth($font-colors, 3);
+    }
+
+    @media (max-width: 599px) {
+        text-decoration: none;
+        font-size: 10px;
+        color: nth($font-colors, 3);
+    }
+}
+
+.list-link-style {
+    color: nth($font-colors, 3);
+    text-align: justify;
+    display: inline;
+    margin: 0 50px;
+
+    @media (min-width:600px) and (max-width:1024px) {
+        color: nth($font-colors, 3);
+        text-align: justify;
+        display: inline;
+        margin: 0 10px;
+    }
+
+    @media (max-width: 599px) {
+        color: nth($font-colors, 3);
+        text-align: justify;
+        display: inline;
+        margin: 0 5px;
+    }   
+}
+
+/* ENLACES EXTERNOS */
+.social-media-style {
+    text-decoration: none;
+    font-size: 20px;
+    color: nth($font-colors, 2);
+
+    &:hover {
+        text-decoration: underline;
+        color: nth($font-colors, 2)
+    }
+
+    @media (min-width:600px) and (max-width:1024px) {
+        text-decoration: underline;
+        font-size: 15px;
+        color: nth($font-colors, 2);
+    }
+
+    @media (max-width: 599px) {
+        text-decoration: underline;
+        font-size: 8px;
+        color: nth($font-colors, 2);
+    }
+}
+
+.social-media-style2 {
+    text-decoration: none;
+    font-size: 20px;
+    color: nth($font-colors, 1);
+
+    &:hover {
+        text-decoration: underline;
+        color: nth($font-colors, 1)
+    }
+
+    @media (min-width:600px) and (max-width:1024px) {
+        text-decoration: underline;
+        font-size: 15px;
+        color: nth($font-colors, 1);
+    }
+
+    @media (max-width: 599px) {
+        text-decoration: underline;
+        font-size: 8px;
+        color: nth($font-colors, 1);
+    }
+}
+
+.link-externo-style {
+    text-decoration: none;
+    font-family: $link-f;
+    font-size: 15px;
+    color: nth($font-colors, 1);
+    text-align: center;
+
+    &:hover {
+        text-decoration: underline;
+        color: nth($font-colors, 1);
+    }
+}
+
+/* LINK DE BOTONES */
+.button-link-style {
+    text-decoration: none;
+    color: nth($font-colors, 1);
+    font-size: $button-fs;
+
+    &:hover {
+        color: nth($font-colors, 3)
+    }
+}
+
+
+
